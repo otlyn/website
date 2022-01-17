@@ -47,7 +47,9 @@ npm run start
 npx sb init
 ```
 
-Storybook and Tailwind actually do work together using the `@apply` directive, however not with standard inline classes. 
+# Add Tailwind to Storybook
+```js
+// .storybook/preview.js
 
-# Bug
-`yarn build` doesn't work... ever
+import '../src/index.css';
+```
