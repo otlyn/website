@@ -42,7 +42,7 @@ module.exports = {
 npm run start
 ```
 
-# Storybook!!!
-I'd like to get this working with Storybook as well. But I'm unable to do it currently. Instead of staying blocked, perhaps I can ask someone more experienced to help... Aza?
-
-Here's the best source I could find of a recent working version of React, Tailwind, TypeScript and Storybook... it also has Sass which is super nice! 
+# Storybook
+```bash
+npx sb init
+```
