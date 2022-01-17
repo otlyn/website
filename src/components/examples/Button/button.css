@@ -1,16 +1,10 @@
 .storybook-button {
-  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  border: 0;
-  border-radius: 3em;
-  cursor: pointer;
-  display: inline-block;
-  line-height: 1;
+  /* Tailwind CSS @apply example */
+  @apply rounded-full;
 }
 .storybook-button--primary {
-  /* color: white; */
-  background-color: #1ea7fd;
-  @apply text-black;
+  /* Tailwind CSS @apply example */
+  @apply bg-blue-500 text-white;
 }
 .storybook-button--secondary {
   color: #333;

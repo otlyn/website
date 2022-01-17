@@ -1,14 +1,14 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 
-import { TestHeader } from './TestHeader';
+import { Header } from './Header';
 
 export default {
-  title: 'Example/TestHeader',
-  component: TestHeader,
-} as ComponentMeta<typeof TestHeader>;
+  title: 'Otlyn/Header',
+  component: Header,
+} as ComponentMeta<typeof Header>;
 
-const Template: ComponentStory<typeof TestHeader> = (args) => <TestHeader {...args} />;
+const Template: ComponentStory<typeof Header> = (args) => <Header {...args} />;
 
 export const LoggedIn = Template.bind({});
 LoggedIn.args = {

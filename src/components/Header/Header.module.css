@@ -1,0 +1,7 @@
+.header {
+  @apply bg-black text-white
+}
+
+.header h1 {
+  @apply text-yellow-300
+}
