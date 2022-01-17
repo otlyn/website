@@ -53,3 +53,11 @@ npx sb init
 
 import '../src/index.css';
 ```
+
+# Add Sass
+```bash
+npm i node-sass
+```
+
+# Change css to scss
+For example, `Header.module.css` to `Header.module.scss` -> Done 👍
