@@ -46,3 +46,8 @@ npm run start
 ```bash
 npx sb init
 ```
+
+Storybook and Tailwind actually do work together using the `@apply` directive, however not with standard inline classes. 
+
+# Bug
+`yarn build` doesn't work... ever
